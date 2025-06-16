@@ -7,3 +7,13 @@ print(type(height)) #checking the data type
 x=str(age) #converting the integer to string
 print(type(x))#checking the data type
 print(x)
+
+a= 10
+b=5
+print(a+b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a-b)
+print(a%b)
+print(a**b)
