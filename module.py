@@ -12,4 +12,7 @@ if n%2==0:
 else:
     print(f"{n} is odd")
 
-def problem():
+def outer():
+    def inner():
+        print("Inner function")
+    inner()
